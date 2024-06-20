@@ -1,0 +1,9 @@
+<view class="camera-container">
+  <camera id="camera" device-position="back" flash="auto" binderror="cameraError" bindinitdone="onCameraInitDone" bindframedata="onFrameData" frame-size="medium"></camera>
+  <canvas canvas-id="canvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></canvas>
+  <view class="controls">
+    <button bindtap="takePhoto">手动拍</button>
+    <button bindtap="startRecording">开启录音</button>
+    <button bindtap="stopRecording">停止录音</button>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+/**app.wxss**/
+/* 全局样式 */
+page {
+  background: linear-gradient(to top, #a1c4fd, #c2e9fb);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 底部tabbar样式 */
+tabbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top: 1px solid #e0e0e0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px 10px 0 0;
+}
+
+tabbar-item {
+  color: #666;
+}
+
+tabbar-item.active {
+  color: #007aff;
+}

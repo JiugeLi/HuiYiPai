@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="header">
+    <text class="title">会议培训记录助手</text>
+  </view>
+  <view class="button-container">
+    <button bindtap="takePhoto">
+      <image class="icon" src="/assets/camera.png"></image>
+      <text>立即拍照</text>
+    </button>
+  </view>
+  <view class="button-container">
+    <button bindtap="createTrainingRecord">
+      <image class="icon" src="/assets/training.png"></image>
+      <text>新建培训</text>
+    </button>
+  </view>
+  <view class="button-container">
+    <button bindtap="createMeetingRecord">
+      <image class="icon" src="/assets/meeting.png"></image>
+      <text>新建会议</text>
+    </button>
+  </view>
+</view>
